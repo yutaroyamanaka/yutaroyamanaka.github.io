@@ -24,11 +24,12 @@
             </div>
         </div>
     </nav>
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-info text-white text-center">
         <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/my_circle.png" style="width:200px; hegiht:200px;">
             <h2>Yutaro Yamanaka</h2>
-            <hr class="star-light">
-            <h2 class="font-weight-light mb-0">University Student(B4) Enginner</h2>
+            <hr/>
+            <h4 class="font-weight-light mb-0">慶應義塾大学理工学部のB4で、Machine Learningの研究室に所属しています</h4>
+            <h4 class="font-weight-light mb-0">サーバーサイドとMLの両方の領域で強みを持ったエンジニアになりたいと考えています。</h4>
         </div>
     </header>
     <section id="portfolio" class="portfolio">
@@ -54,19 +55,37 @@
                             <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
                         </div><img class="img-fluid" src="assets/img/haiiter.png"></a>
                 </div>
+                <div class="col-md-6 col-lg-4">
+                        <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5" data-toggle="modal">
+                            <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                                <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/algorithm.png"></a>
+                </div>
             </div>
         </div>
     </section>
-    <section id="skillandcareer" class="bg-primary text-white mb-0">
+    <section id="skillandcareer" class="bg-info text-white mb-0">
         <div class="container">
             <h2 class="text-uppercase text-center text-white">Skills & Career</h2>
-            <hr class="star-light mb-5">
+            <hr>
             <div class="row">
                 <div class="col-lg-4 ml-auto">
-                    <p class="lead">C/C++   python(Flask, Django)   JS(React)  Golang(Now Studying)  Docker etc</p>
+                    <p>C/C++</p>
+                    <p>Python(Flask, Django)</p>
+                    <p>JavaScript(React+Redux)</p>
+                    <p>Go</p>
+                    <p>Docker</p>
+                    <p>HTTPなどのWeb周りの基本的な知識</p>
+                    <p>基本的な機械学習の知識</p>
                 </div>
                 <div class="col-lg-4 mr-auto">
-                    <p class="lead"> Logbii inc(2018/11~)<br/> Backend and Frontend Engineer <br/><br/>   STANDARD (2018/7 ~ 2018/11) Backend and Machine Learning  <br/><br/> Keio University(2016/4 ~ 2022/3)<br/> faculty of Science and technology Kurihara Lab </p>
+                    <p class="lead">Logbii(2018/11~)</p>
+                    <p>Web API開発(Python)</p>
+                    <p>フロントエンド開発(React+Redux)</p><br/>
+                    <p class="lead">STANDARD(2018/7~2018/11)</p>
+                    <p>社内用ツールの開発(Python)</p>
+                    <p>アクセスログの収集(fluentd, BigQuery)</p>
+                    <p>物体検出モデルの、Android OSへの組み込み</p>
                 </div>
             </div>
             <div class="text-center mt-4"></div>
@@ -98,8 +117,8 @@
                                     <h2 class="text-uppercase text-secondary mb-0">gopr</h2>
                                     <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/gopr-detail.png">
                                     <br/>
-                                    <p4 class="mb-5">Command Line Tool for checking Pull Request</p4><br/>
-                                    <p4 class="mb-5">of any Organizations and any Repositories</p4>
+                                    <p4 class="mb-5">Github上の指定のレポジトリでのPull Requestの</p4><br/>
+                                    <p4 class="mb-5">情報や差分、新規作成ができるGo製のCLIツールです。</p4>
                                     <a href="https://github.com/yutaroyamanaka/gopr">https://github.com/yutaroyamanaka/gopr</a>
                                 </div>
                             </div>
@@ -117,10 +136,10 @@
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <h2 class="text-uppercase text-secondary mb-0">yahoo-news-cli</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/cli.gif">
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/cli.png">
                                 <br/>
-                                <p4 class="mb-5">Command Line Tool for checking latest yahoo news</p4>
-                                <p4 class="mb-5">, sometimes don't work because yahoo changes html tag.</p4>
+                                <p4 class="mb-5">Yahoo Newsのニュースを表示させるCLiツール</p4><br/>
+                                <p4 class="mb-5">たまにhtmlのタグ名などが変更されてしまい、うまく動かない。</p4>
                                 <a href="https://github.com/yutaroyamanaka/yahoo-news-cli">https://github.com/yutaroyamanaka/yahoo-news-cli</a>
                             </div>
                         </div>
@@ -140,7 +159,7 @@
                                 <h2 class="text-uppercase text-secondary mb-0">Haitter</h2>
                                 <p class="mb-5"></p>
                                 <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/haiiter.png">
-                                <p4>Tiny Web SNS similar to Twitter(just for studying WAF)</p4><br/>
+                                <p4>Web周りの知識を学んだアウトプットとして作ったSNSサイト。(昔に作ったので、今思うとかなり汚いコードです。)</p4><br/>
                                 <a href="http://www.haitter.net">http://www.haitter.net</a><br/>
                                 <a href="https://github.com/yutaroyamanaka/Haitter">https://github.com/yutaroyamanaka/Haitter</a>
                             </div>
@@ -150,6 +169,25 @@
             </div>
         </div>
     </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col-lg-8 mx-auto">
+                                    <h2 class="text-uppercase text-secondary mb-0">Atcoder</h2>
+                                     <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/atcoder.png">
+                                     <p>Atcoderにほぼ毎週のように参加しています。</p>
+                                     <a href="https://atcoder.jp/users/tarovel4842">https://atcoder.jp/users/tarovel4842</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
